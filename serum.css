@@ -1,0 +1,67 @@
+body{
+    margin: 0px;
+ color: lightgray;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-image: url(pozadinabela.jpg);
+
+}
+
+.navigacioni ul{
+    position: relative; /* ovo je da meni ostane zakacen na vrhu stranice */
+    list-style-type: none;
+    background-color: rgba(0, 0, 0, .2);
+    color: darkgray;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.navigacioni a{
+    color: black;
+    display: block;                               
+    padding: 15px;                  
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.navigacioni a:hover{
+    color: darkgray;
+    background-color: gray;
+    transition: 1s;
+}
+
+.navigacioni li{
+    float: left;
+}
+.navigacioni .uloguj{
+    float: right;
+}
+.slika{
+    margin: 5%;
+    float: left;
+    
+}
+.tekst{
+    margin: 10%;
+    color: black;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+footer{
+    background-color: rgba(0, 0, 0, .2);
+}
+footer p{
+    margin: 2%;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+}                                               
+footer p:hover{
+    color: orange;
+    transition: 1s;
+}

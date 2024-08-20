@@ -1,0 +1,107 @@
+body{
+    margin: 0px;
+ color: lightgray;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-image: url(pena3.jpg);
+
+}
+
+.navigacioni ul{
+    position: relative; 
+    list-style-type: none;
+    background-color: rgba(0, 0, 0, .2);
+    color: darkgray;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.navigacioni a{
+    color: black;
+    display: block;                               
+    padding: 15px;                  
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.navigacioni a:hover{
+    color: darkgray;
+    background-color: gray;
+    transition: 1s;
+}
+
+.navigacioni li{
+    float: left;
+}
+.navigacioni .uloguj{
+    float: right;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .naslov {
+    font-size: xx-large;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+
+  .proizvod{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .proizvod button {
+    border: none;
+    outline: 0;
+    padding: 20px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .proizvod button:hover {
+    opacity: 0.7;
+  }
+#proizvod1{
+    display: inline-block;
+    padding: 70px;
+    text-decoration: none;
+}
+
+
+  footer{
+    background-color: rgba(0, 0, 0, .2);
+}
+footer p{
+    margin: 2%;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+}                                                 /*ovo je za footer i hover*/
+footer p:hover{
+    color: orange;
+    transition: 1s;
+}

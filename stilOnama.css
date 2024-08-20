@@ -1,0 +1,94 @@
+body{
+    margin: 0px;
+   color: lightgrey;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-image: url(poz3.webp);
+}
+
+.navigacioni ul{
+    position: hidden; 
+    list-style-type: none;
+    background-color: rgba(0, 0, 0, .2);
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+   
+}
+.navigacioni a{
+    color: lightslategray;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+   
+}
+
+.navigacioni a:hover{
+    color: darkgray;
+    background-color: gray;
+    transition: 1s;
+}
+
+.navigacioni li{
+    float: left;
+}
+.navigacioni .uloguj{
+    float: right;
+}
+.naslov{
+    
+    color: gray;
+    font-size: large;
+    text-align: left;
+    padding: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+  .naslov1 {
+    background-color: #2f8d46;
+    background-image: url("pozadina4.avif");
+      background-repeat: repeat;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-top: 200px;
+      font-size: 120px;
+      text-align: center;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-family: 'Steelfish Rg', 'helvetica neue', 
+                      helvetica, arial, sans-serif;
+      font-weight: 800;
+      -webkit-font-smoothing: antialiased;
+  }
+.tekst1{
+    color:white;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 40px;
+    font-size: larger;
+    background-color: gray;
+}
+.tekst1:hover{
+    background-color: whitesmoke;
+    color: gray;
+    transition: 1s;
+}
+
+
+
+footer{
+    background-color: rgba(0, 0, 0, .2);
+}
+footer p{
+    margin: 2%;
+    color: white;
+}
+footer p:hover{
+    color: orange;
+    transition: 1s;
+}
+
